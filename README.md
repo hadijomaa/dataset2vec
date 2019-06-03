@@ -10,9 +10,13 @@ python main.py
 -----------
 
 To cite Dataset2Vec please reference our arxiv paper:
+
+
+'''
 @article{jomaa2019dataset2vec,
   title={Dataset2Vec: Learning Dataset Meta-Features},
   author={Jomaa, Hadi S and Grabocka, Josif and Schmidt-Thieme, Lars},
   journal={arXiv preprint arXiv:1905.11063},
   year={2019}
 }
+'''
