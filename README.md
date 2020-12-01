@@ -2,7 +2,7 @@
 We provide here the source code for our paper "Dataset2Vec: Learning Dataset Meta-Features".
 
 ## Usage
-Run the main.py file and specify which dataset to use. Available options are [toy,uci]
+Run the d2v.py file.
 ```
 python main.py 
 ```
