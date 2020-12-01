@@ -1,0 +1,8 @@
+# Specify filepatterns you want git to ignore.
+
+# Specify filepatterns you want git to ignore.
+*.pyc
+checkpoints/*
+results/*
+*unprocessed*
+getresults/*

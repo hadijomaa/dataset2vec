@@ -1,0 +1,1 @@
+{"DROPOUT": [0.0, 0.2, 0.5], "LAYERS": [3.0, 5.0, 7.0, 1.0], "NEURONS": [4.0, 8.0, 16.0, 32.0], "ACTIVATION": ["ReLU", "LeakyReLU", "SeLU"], "NORMALIZATION": [0.0, 1.0]}

@@ -1,0 +1,1682 @@
+{
+  "molec-biol-splice": {
+    "cardinality": {
+      "train": 1913,
+      "valid": 480
+    },
+    "D": {
+      "train": 60,
+      "valid": 60
+    },
+    "C": {
+      "train": 3,
+      "valid": 3
+    }
+  },
+  "twonorm": {
+    "cardinality": {
+      "train": 4461,
+      "valid": 1089
+    },
+    "D": {
+      "train": 20,
+      "valid": 20
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "plant-texture": {
+    "cardinality": {
+      "train": 950,
+      "valid": 249
+    },
+    "D": {
+      "train": 64,
+      "valid": 64
+    },
+    "C": {
+      "train": 100,
+      "valid": 95
+    }
+  },
+  "ringnorm": {
+    "cardinality": {
+      "train": 4423,
+      "valid": 1127
+    },
+    "D": {
+      "train": 20,
+      "valid": 20
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "spect": {
+    "cardinality": {
+      "train": 69,
+      "valid": 10
+    },
+    "D": {
+      "train": 22,
+      "valid": 22
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "energy-y2": {
+    "cardinality": {
+      "train": 460,
+      "valid": 116
+    },
+    "D": {
+      "train": 8,
+      "valid": 8
+    },
+    "C": {
+      "train": 3,
+      "valid": 3
+    }
+  },
+  "steel-plates": {
+    "cardinality": {
+      "train": 1151,
+      "valid": 305
+    },
+    "D": {
+      "train": 27,
+      "valid": 27
+    },
+    "C": {
+      "train": 7,
+      "valid": 7
+    }
+  },
+  "vertebral-column-3clases": {
+    "cardinality": {
+      "train": 189,
+      "valid": 44
+    },
+    "D": {
+      "train": 6,
+      "valid": 6
+    },
+    "C": {
+      "train": 3,
+      "valid": 3
+    }
+  },
+  "chess-krvk": {
+    "cardinality": {
+      "train": 16816,
+      "valid": 4226
+    },
+    "D": {
+      "train": 6,
+      "valid": 6
+    },
+    "C": {
+      "train": 18,
+      "valid": 18
+    }
+  },
+  "statlog-shuttle": {
+    "cardinality": {
+      "train": 34726,
+      "valid": 8774
+    },
+    "D": {
+      "train": 9,
+      "valid": 9
+    },
+    "C": {
+      "train": 7,
+      "valid": 7
+    }
+  },
+  "breast-cancer-wisc": {
+    "cardinality": {
+      "train": 406,
+      "valid": 118
+    },
+    "D": {
+      "train": 9,
+      "valid": 9
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "semeion": {
+    "cardinality": {
+      "train": 933,
+      "valid": 262
+    },
+    "D": {
+      "train": 256,
+      "valid": 256
+    },
+    "C": {
+      "train": 10,
+      "valid": 10
+    }
+  },
+  "connect-4": {
+    "cardinality": {
+      "train": 40417,
+      "valid": 10251
+    },
+    "D": {
+      "train": 42,
+      "valid": 42
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "monks-3": {
+    "cardinality": {
+      "train": 90,
+      "valid": 32
+    },
+    "D": {
+      "train": 6,
+      "valid": 6
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "wall-following": {
+    "cardinality": {
+      "train": 3272,
+      "valid": 820
+    },
+    "D": {
+      "train": 24,
+      "valid": 24
+    },
+    "C": {
+      "train": 4,
+      "valid": 4
+    }
+  },
+  "vertebral-column-2clases": {
+    "cardinality": {
+      "train": 174,
+      "valid": 59
+    },
+    "D": {
+      "train": 6,
+      "valid": 6
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "planning": {
+    "cardinality": {
+      "train": 110,
+      "valid": 27
+    },
+    "D": {
+      "train": 12,
+      "valid": 12
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "cardiotocography-3clases": {
+    "cardinality": {
+      "train": 1272,
+      "valid": 323
+    },
+    "D": {
+      "train": 21,
+      "valid": 21
+    },
+    "C": {
+      "train": 3,
+      "valid": 3
+    }
+  },
+  "plant-margin": {
+    "cardinality": {
+      "train": 958,
+      "valid": 242
+    },
+    "D": {
+      "train": 64,
+      "valid": 64
+    },
+    "C": {
+      "train": 100,
+      "valid": 93
+    }
+  },
+  "nursery": {
+    "cardinality": {
+      "train": 7802,
+      "valid": 1918
+    },
+    "D": {
+      "train": 8,
+      "valid": 8
+    },
+    "C": {
+      "train": 5,
+      "valid": 4
+    }
+  },
+  "titanic": {
+    "cardinality": {
+      "train": 1296,
+      "valid": 355
+    },
+    "D": {
+      "train": 3,
+      "valid": 3
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "energy-y1": {
+    "cardinality": {
+      "train": 472,
+      "valid": 104
+    },
+    "D": {
+      "train": 8,
+      "valid": 8
+    },
+    "C": {
+      "train": 3,
+      "valid": 3
+    }
+  },
+  "monks-1": {
+    "cardinality": {
+      "train": 89,
+      "valid": 35
+    },
+    "D": {
+      "train": 6,
+      "valid": 6
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "arrhythmia": {
+    "cardinality": {
+      "train": 260,
+      "valid": 79
+    },
+    "D": {
+      "train": 262,
+      "valid": 262
+    },
+    "C": {
+      "train": 13,
+      "valid": 10
+    }
+  },
+  "breast-tissue": {
+    "cardinality": {
+      "train": 64,
+      "valid": 16
+    },
+    "D": {
+      "train": 9,
+      "valid": 9
+    },
+    "C": {
+      "train": 6,
+      "valid": 4
+    }
+  },
+  "statlog-australian-credit": {
+    "cardinality": {
+      "train": 412,
+      "valid": 106
+    },
+    "D": {
+      "train": 14,
+      "valid": 14
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "tic-tac-toe": {
+    "cardinality": {
+      "train": 573,
+      "valid": 146
+    },
+    "D": {
+      "train": 9,
+      "valid": 9
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "lymphography": {
+    "cardinality": {
+      "train": 91,
+      "valid": 20
+    },
+    "D": {
+      "train": 18,
+      "valid": 18
+    },
+    "C": {
+      "train": 4,
+      "valid": 4
+    }
+  },
+  "monks-2": {
+    "cardinality": {
+      "train": 139,
+      "valid": 30
+    },
+    "D": {
+      "train": 6,
+      "valid": 6
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "waveform": {
+    "cardinality": {
+      "train": 2992,
+      "valid": 758
+    },
+    "D": {
+      "train": 21,
+      "valid": 21
+    },
+    "C": {
+      "train": 3,
+      "valid": 3
+    }
+  },
+  "fertility": {
+    "cardinality": {
+      "train": 57,
+      "valid": 18
+    },
+    "D": {
+      "train": 9,
+      "valid": 9
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "lenses": {
+    "cardinality": {
+      "train": 14,
+      "valid": 4
+    },
+    "D": {
+      "train": 4,
+      "valid": 4
+    },
+    "C": {
+      "train": 3,
+      "valid": 3
+    }
+  },
+  "wine-quality-red": {
+    "cardinality": {
+      "train": 956,
+      "valid": 243
+    },
+    "D": {
+      "train": 11,
+      "valid": 11
+    },
+    "C": {
+      "train": 6,
+      "valid": 6
+    }
+  },
+  "parkinsons": {
+    "cardinality": {
+      "train": 114,
+      "valid": 32
+    },
+    "D": {
+      "train": 22,
+      "valid": 22
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "wine-quality-white": {
+    "cardinality": {
+      "train": 2939,
+      "valid": 735
+    },
+    "D": {
+      "train": 11,
+      "valid": 11
+    },
+    "C": {
+      "train": 7,
+      "valid": 7
+    }
+  },
+  "pima": {
+    "cardinality": {
+      "train": 459,
+      "valid": 117
+    },
+    "D": {
+      "train": 8,
+      "valid": 8
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "pittsburg-bridges-T-OR-D": {
+    "cardinality": {
+      "train": 61,
+      "valid": 16
+    },
+    "D": {
+      "train": 7,
+      "valid": 7
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "low-res-spect": {
+    "cardinality": {
+      "train": 316,
+      "valid": 82
+    },
+    "D": {
+      "train": 100,
+      "valid": 100
+    },
+    "C": {
+      "train": 9,
+      "valid": 6
+    }
+  },
+  "musk-1": {
+    "cardinality": {
+      "train": 281,
+      "valid": 76
+    },
+    "D": {
+      "train": 166,
+      "valid": 166
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "pittsburg-bridges-REL-L": {
+    "cardinality": {
+      "train": 64,
+      "valid": 13
+    },
+    "D": {
+      "train": 7,
+      "valid": 7
+    },
+    "C": {
+      "train": 3,
+      "valid": 3
+    }
+  },
+  "breast-cancer": {
+    "cardinality": {
+      "train": 181,
+      "valid": 34
+    },
+    "D": {
+      "train": 9,
+      "valid": 9
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "spambase": {
+    "cardinality": {
+      "train": 2726,
+      "valid": 725
+    },
+    "D": {
+      "train": 57,
+      "valid": 57
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "iris": {
+    "cardinality": {
+      "train": 92,
+      "valid": 21
+    },
+    "D": {
+      "train": 4,
+      "valid": 4
+    },
+    "C": {
+      "train": 3,
+      "valid": 3
+    }
+  },
+  "thyroid": {
+    "cardinality": {
+      "train": 2993,
+      "valid": 779
+    },
+    "D": {
+      "train": 21,
+      "valid": 21
+    },
+    "C": {
+      "train": 3,
+      "valid": 3
+    }
+  },
+  "mammographic": {
+    "cardinality": {
+      "train": 575,
+      "valid": 146
+    },
+    "D": {
+      "train": 5,
+      "valid": 5
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "ilpd-indian-liver": {
+    "cardinality": {
+      "train": 351,
+      "valid": 86
+    },
+    "D": {
+      "train": 9,
+      "valid": 9
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "blood": {
+    "cardinality": {
+      "train": 439,
+      "valid": 122
+    },
+    "D": {
+      "train": 4,
+      "valid": 4
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "waveform-noise": {
+    "cardinality": {
+      "train": 2979,
+      "valid": 771
+    },
+    "D": {
+      "train": 40,
+      "valid": 40
+    },
+    "C": {
+      "train": 3,
+      "valid": 3
+    }
+  },
+  "statlog-heart": {
+    "cardinality": {
+      "train": 165,
+      "valid": 38
+    },
+    "D": {
+      "train": 13,
+      "valid": 13
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "pittsburg-bridges-TYPE": {
+    "cardinality": {
+      "train": 61,
+      "valid": 18
+    },
+    "D": {
+      "train": 7,
+      "valid": 7
+    },
+    "C": {
+      "train": 6,
+      "valid": 5
+    }
+  },
+  "echocardiogram": {
+    "cardinality": {
+      "train": 78,
+      "valid": 20
+    },
+    "D": {
+      "train": 10,
+      "valid": 10
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "flags": {
+    "cardinality": {
+      "train": 119,
+      "valid": 27
+    },
+    "D": {
+      "train": 28,
+      "valid": 28
+    },
+    "C": {
+      "train": 8,
+      "valid": 7
+    }
+  },
+  "letter": {
+    "cardinality": {
+      "train": 11941,
+      "valid": 3059
+    },
+    "D": {
+      "train": 16,
+      "valid": 16
+    },
+    "C": {
+      "train": 26,
+      "valid": 26
+    }
+  },
+  "zoo": {
+    "cardinality": {
+      "train": 62,
+      "valid": 14
+    },
+    "D": {
+      "train": 16,
+      "valid": 16
+    },
+    "C": {
+      "train": 7,
+      "valid": 5
+    }
+  },
+  "ecoli": {
+    "cardinality": {
+      "train": 198,
+      "valid": 54
+    },
+    "D": {
+      "train": 7,
+      "valid": 7
+    },
+    "C": {
+      "train": 8,
+      "valid": 7
+    }
+  },
+  "yeast": {
+    "cardinality": {
+      "train": 901,
+      "valid": 212
+    },
+    "D": {
+      "train": 8,
+      "valid": 8
+    },
+    "C": {
+      "train": 10,
+      "valid": 10
+    }
+  },
+  "hayes-roth": {
+    "cardinality": {
+      "train": 98,
+      "valid": 34
+    },
+    "D": {
+      "train": 3,
+      "valid": 3
+    },
+    "C": {
+      "train": 3,
+      "valid": 3
+    }
+  },
+  "libras": {
+    "cardinality": {
+      "train": 222,
+      "valid": 48
+    },
+    "D": {
+      "train": 90,
+      "valid": 90
+    },
+    "C": {
+      "train": 15,
+      "valid": 15
+    }
+  },
+  "breast-cancer-wisc-prog": {
+    "cardinality": {
+      "train": 127,
+      "valid": 22
+    },
+    "D": {
+      "train": 33,
+      "valid": 33
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "glass": {
+    "cardinality": {
+      "train": 124,
+      "valid": 37
+    },
+    "D": {
+      "train": 9,
+      "valid": 9
+    },
+    "C": {
+      "train": 6,
+      "valid": 6
+    }
+  },
+  "adult": {
+    "cardinality": {
+      "train": 25999,
+      "valid": 6562
+    },
+    "D": {
+      "train": 14,
+      "valid": 14
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "annealing": {
+    "cardinality": {
+      "train": 630,
+      "valid": 168
+    },
+    "D": {
+      "train": 31,
+      "valid": 31
+    },
+    "C": {
+      "train": 5,
+      "valid": 5
+    }
+  },
+  "molec-biol-promoter": {
+    "cardinality": {
+      "train": 64,
+      "valid": 16
+    },
+    "D": {
+      "train": 57,
+      "valid": 57
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "contrac": {
+    "cardinality": {
+      "train": 894,
+      "valid": 211
+    },
+    "D": {
+      "train": 9,
+      "valid": 9
+    },
+    "C": {
+      "train": 3,
+      "valid": 3
+    }
+  },
+  "statlog-landsat": {
+    "cardinality": {
+      "train": 3533,
+      "valid": 902
+    },
+    "D": {
+      "train": 36,
+      "valid": 36
+    },
+    "C": {
+      "train": 6,
+      "valid": 6
+    }
+  },
+  "conn-bench-sonar-mines-rocks": {
+    "cardinality": {
+      "train": 123,
+      "valid": 33
+    },
+    "D": {
+      "train": 60,
+      "valid": 60
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "musk-2": {
+    "cardinality": {
+      "train": 3998,
+      "valid": 951
+    },
+    "D": {
+      "train": 166,
+      "valid": 166
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "balloons": {
+    "cardinality": {
+      "train": 8,
+      "valid": 4
+    },
+    "D": {
+      "train": 4,
+      "valid": 4
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "abalone": {
+    "cardinality": {
+      "train": 2503,
+      "valid": 630
+    },
+    "D": {
+      "train": 8,
+      "valid": 8
+    },
+    "C": {
+      "train": 3,
+      "valid": 3
+    }
+  },
+  "statlog-vehicle": {
+    "cardinality": {
+      "train": 514,
+      "valid": 121
+    },
+    "D": {
+      "train": 18,
+      "valid": 18
+    },
+    "C": {
+      "train": 4,
+      "valid": 4
+    }
+  },
+  "page-blocks": {
+    "cardinality": {
+      "train": 3306,
+      "valid": 799
+    },
+    "D": {
+      "train": 10,
+      "valid": 10
+    },
+    "C": {
+      "train": 5,
+      "valid": 5
+    }
+  },
+  "heart-hungarian": {
+    "cardinality": {
+      "train": 187,
+      "valid": 34
+    },
+    "D": {
+      "train": 12,
+      "valid": 12
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "ionosphere": {
+    "cardinality": {
+      "train": 216,
+      "valid": 47
+    },
+    "D": {
+      "train": 33,
+      "valid": 33
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "synthetic-control": {
+    "cardinality": {
+      "train": 368,
+      "valid": 82
+    },
+    "D": {
+      "train": 60,
+      "valid": 60
+    },
+    "C": {
+      "train": 6,
+      "valid": 6
+    }
+  },
+  "plant-shape": {
+    "cardinality": {
+      "train": 986,
+      "valid": 214
+    },
+    "D": {
+      "train": 64,
+      "valid": 64
+    },
+    "C": {
+      "train": 100,
+      "valid": 89
+    }
+  },
+  "pittsburg-bridges-MATERIAL": {
+    "cardinality": {
+      "train": 60,
+      "valid": 20
+    },
+    "D": {
+      "train": 7,
+      "valid": 7
+    },
+    "C": {
+      "train": 3,
+      "valid": 3
+    }
+  },
+  "breast-cancer-wisc-diag": {
+    "cardinality": {
+      "train": 347,
+      "valid": 80
+    },
+    "D": {
+      "train": 30,
+      "valid": 30
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "spectf": {
+    "cardinality": {
+      "train": 59,
+      "valid": 21
+    },
+    "D": {
+      "train": 44,
+      "valid": 44
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "bank": {
+    "cardinality": {
+      "train": 2690,
+      "valid": 701
+    },
+    "D": {
+      "train": 16,
+      "valid": 16
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "pendigits": {
+    "cardinality": {
+      "train": 5996,
+      "valid": 1498
+    },
+    "D": {
+      "train": 16,
+      "valid": 16
+    },
+    "C": {
+      "train": 10,
+      "valid": 10
+    }
+  },
+  "teaching": {
+    "cardinality": {
+      "train": 91,
+      "valid": 22
+    },
+    "D": {
+      "train": 5,
+      "valid": 5
+    },
+    "C": {
+      "train": 3,
+      "valid": 3
+    }
+  },
+  "mushroom": {
+    "cardinality": {
+      "train": 4889,
+      "valid": 1204
+    },
+    "D": {
+      "train": 21,
+      "valid": 21
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "optical": {
+    "cardinality": {
+      "train": 3060,
+      "valid": 763
+    },
+    "D": {
+      "train": 62,
+      "valid": 62
+    },
+    "C": {
+      "train": 10,
+      "valid": 10
+    }
+  },
+  "primary-tumor": {
+    "cardinality": {
+      "train": 197,
+      "valid": 51
+    },
+    "D": {
+      "train": 17,
+      "valid": 17
+    },
+    "C": {
+      "train": 15,
+      "valid": 13
+    }
+  },
+  "conn-bench-vowel-deterding": {
+    "cardinality": {
+      "train": 427,
+      "valid": 101
+    },
+    "D": {
+      "train": 11,
+      "valid": 11
+    },
+    "C": {
+      "train": 11,
+      "valid": 11
+    }
+  },
+  "soybean": {
+    "cardinality": {
+      "train": 248,
+      "valid": 59
+    },
+    "D": {
+      "train": 35,
+      "valid": 35
+    },
+    "C": {
+      "train": 18,
+      "valid": 16
+    }
+  },
+  "oocytes_merluccius_states_2f": {
+    "cardinality": {
+      "train": 632,
+      "valid": 135
+    },
+    "D": {
+      "train": 25,
+      "valid": 25
+    },
+    "C": {
+      "train": 3,
+      "valid": 3
+    }
+  },
+  "chess-krvkp": {
+    "cardinality": {
+      "train": 1933,
+      "valid": 464
+    },
+    "D": {
+      "train": 36,
+      "valid": 36
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "audiology-std": {
+    "cardinality": {
+      "train": 140,
+      "valid": 31
+    },
+    "D": {
+      "train": 59,
+      "valid": 59
+    },
+    "C": {
+      "train": 18,
+      "valid": 12
+    }
+  },
+  "image-segmentation": {
+    "cardinality": {
+      "train": 160,
+      "valid": 50
+    },
+    "D": {
+      "train": 18,
+      "valid": 18
+    },
+    "C": {
+      "train": 7,
+      "valid": 7
+    }
+  },
+  "led-display": {
+    "cardinality": {
+      "train": 594,
+      "valid": 156
+    },
+    "D": {
+      "train": 7,
+      "valid": 7
+    },
+    "C": {
+      "train": 10,
+      "valid": 10
+    }
+  },
+  "heart-va": {
+    "cardinality": {
+      "train": 113,
+      "valid": 37
+    },
+    "D": {
+      "train": 12,
+      "valid": 12
+    },
+    "C": {
+      "train": 5,
+      "valid": 5
+    }
+  },
+  "pittsburg-bridges-SPAN": {
+    "cardinality": {
+      "train": 55,
+      "valid": 14
+    },
+    "D": {
+      "train": 7,
+      "valid": 7
+    },
+    "C": {
+      "train": 3,
+      "valid": 3
+    }
+  },
+  "oocytes_trisopterus_nucleus_2f": {
+    "cardinality": {
+      "train": 573,
+      "valid": 111
+    },
+    "D": {
+      "train": 25,
+      "valid": 25
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "statlog-german-credit": {
+    "cardinality": {
+      "train": 606,
+      "valid": 144
+    },
+    "D": {
+      "train": 24,
+      "valid": 24
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "acute-inflammation": {
+    "cardinality": {
+      "train": 74,
+      "valid": 16
+    },
+    "D": {
+      "train": 6,
+      "valid": 6
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "car": {
+    "cardinality": {
+      "train": 1026,
+      "valid": 270
+    },
+    "D": {
+      "train": 6,
+      "valid": 6
+    },
+    "C": {
+      "train": 4,
+      "valid": 4
+    }
+  },
+  "horse-colic": {
+    "cardinality": {
+      "train": 234,
+      "valid": 66
+    },
+    "D": {
+      "train": 25,
+      "valid": 25
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "heart-switzerland": {
+    "cardinality": {
+      "train": 74,
+      "valid": 18
+    },
+    "D": {
+      "train": 12,
+      "valid": 12
+    },
+    "C": {
+      "train": 5,
+      "valid": 4
+    }
+  },
+  "oocytes_trisopterus_states_5b": {
+    "cardinality": {
+      "train": 555,
+      "valid": 129
+    },
+    "D": {
+      "train": 32,
+      "valid": 32
+    },
+    "C": {
+      "train": 3,
+      "valid": 3
+    }
+  },
+  "congressional-voting": {
+    "cardinality": {
+      "train": 269,
+      "valid": 57
+    },
+    "D": {
+      "train": 16,
+      "valid": 16
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "acute-nephritis": {
+    "cardinality": {
+      "train": 73,
+      "valid": 17
+    },
+    "D": {
+      "train": 6,
+      "valid": 6
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "credit-approval": {
+    "cardinality": {
+      "train": 418,
+      "valid": 100
+    },
+    "D": {
+      "train": 15,
+      "valid": 15
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "hill-valley": {
+    "cardinality": {
+      "train": 480,
+      "valid": 126
+    },
+    "D": {
+      "train": 100,
+      "valid": 100
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "oocytes_merluccius_nucleus_4d": {
+    "cardinality": {
+      "train": 606,
+      "valid": 161
+    },
+    "D": {
+      "train": 41,
+      "valid": 41
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "seeds": {
+    "cardinality": {
+      "train": 128,
+      "valid": 30
+    },
+    "D": {
+      "train": 7,
+      "valid": 7
+    },
+    "C": {
+      "train": 3,
+      "valid": 3
+    }
+  },
+  "ozone": {
+    "cardinality": {
+      "train": 1543,
+      "valid": 359
+    },
+    "D": {
+      "train": 72,
+      "valid": 72
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "magic": {
+    "cardinality": {
+      "train": 11412,
+      "valid": 2853
+    },
+    "D": {
+      "train": 10,
+      "valid": 10
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "statlog-image": {
+    "cardinality": {
+      "train": 1371,
+      "valid": 362
+    },
+    "D": {
+      "train": 18,
+      "valid": 18
+    },
+    "C": {
+      "train": 7,
+      "valid": 7
+    }
+  },
+  "cylinder-bands": {
+    "cardinality": {
+      "train": 302,
+      "valid": 82
+    },
+    "D": {
+      "train": 35,
+      "valid": 35
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "lung-cancer": {
+    "cardinality": {
+      "train": 20,
+      "valid": 4
+    },
+    "D": {
+      "train": 56,
+      "valid": 56
+    },
+    "C": {
+      "train": 3,
+      "valid": 2
+    }
+  },
+  "dermatology": {
+    "cardinality": {
+      "train": 217,
+      "valid": 58
+    },
+    "D": {
+      "train": 34,
+      "valid": 34
+    },
+    "C": {
+      "train": 6,
+      "valid": 6
+    }
+  },
+  "cardiotocography-10clases": {
+    "cardinality": {
+      "train": 1276,
+      "valid": 319
+    },
+    "D": {
+      "train": 21,
+      "valid": 21
+    },
+    "C": {
+      "train": 10,
+      "valid": 10
+    }
+  },
+  "heart-cleveland": {
+    "cardinality": {
+      "train": 173,
+      "valid": 54
+    },
+    "D": {
+      "train": 13,
+      "valid": 13
+    },
+    "C": {
+      "train": 5,
+      "valid": 5
+    }
+  },
+  "haberman-survival": {
+    "cardinality": {
+      "train": 184,
+      "valid": 46
+    },
+    "D": {
+      "train": 3,
+      "valid": 3
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "balance-scale": {
+    "cardinality": {
+      "train": 386,
+      "valid": 83
+    },
+    "D": {
+      "train": 4,
+      "valid": 4
+    },
+    "C": {
+      "train": 3,
+      "valid": 3
+    }
+  },
+  "wine": {
+    "cardinality": {
+      "train": 100,
+      "valid": 34
+    },
+    "D": {
+      "train": 13,
+      "valid": 13
+    },
+    "C": {
+      "train": 3,
+      "valid": 3
+    }
+  },
+  "miniboone": {
+    "cardinality": {
+      "train": 77904,
+      "valid": 19644
+    },
+    "D": {
+      "train": 50,
+      "valid": 50
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "hepatitis": {
+    "cardinality": {
+      "train": 93,
+      "valid": 23
+    },
+    "D": {
+      "train": 19,
+      "valid": 19
+    },
+    "C": {
+      "train": 2,
+      "valid": 2
+    }
+  },
+  "post-operative": {
+    "cardinality": {
+      "train": 55,
+      "valid": 13
+    },
+    "D": {
+      "train": 8,
+      "valid": 8
+    },
+    "C": {
+      "train": 3,
+      "valid": 2
+    }
+  }
+}

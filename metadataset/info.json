@@ -1,0 +1,23 @@
+{
+  "a": {
+    "cardinality": 256,
+    "D": 10,
+    "ninstanc": 256,
+    "nclasses": 3,
+    "nfeature": 16
+  },
+  "b": {
+    "cardinality": 288,
+    "D": 7,
+    "ninstanc": 256,
+    "nclasses": 3,
+    "nfeature": 16
+  },
+  "c": {
+    "cardinality": 324,
+    "D": 12,
+    "ninstanc": 256,
+    "nclasses": 3,
+    "nfeature": 16
+  }
+}

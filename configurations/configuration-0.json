@@ -1,0 +1,1 @@
+{"nonlinearity_d2v": "relu", "units_f": 32, "nhidden_f": 4, "architecture_f": "SQU", "resblocks_f": 8, "units_h": 32, "nhidden_h": 4, "architecture_h": "SQU", "resblocks_h": 8, "units_g": 32, "nhidden_g": 4, "architecture_g": "SQU", "ninstanc": 256, "nclasses": 5, "nfeature": 32, "number": 0}
