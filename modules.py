@@ -196,10 +196,10 @@ class FunctionH(Function):
         for i,fc in enumerate(self.block):
             
             e = fc(e)
-            
             # make sure activation only applied once!
             if self.resblocks == 0:
-                e = self.nonlinearity(e)
+                if i<(len(self.blocks)-1):
+                    e = self.nonlinearity(e)
             else:
                 # only first one
                 if i==0:
