@@ -59,9 +59,6 @@ metadataset = ismlldataset.datasets.get_metadataset(dataset_id=dataset_id)
 # get configurations and response
 x,y = metadataset.get_meta_data()
 
-# apply special transformations (optional), Available Transformations ("Layout Md","Regularization Md","Optimization Md")
-metadataset.apply_special_transformation("Layout Md")
-
 # normalize response (optional)
 
 metadataset.normalize_response()
