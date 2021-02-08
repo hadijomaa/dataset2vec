@@ -82,6 +82,7 @@ class FunctionF(Function):
         # m number of residual blocks
         super().__init__(units, nhidden, nonlinearity,architecture,trainable)
         # override function with residual blocks
+        self.resblocks=resblocks
         if resblocks>0:
             self.block        = [tf.keras.layers.Dense(units=self.units,trainable=trainable)]
             assert(architecture=="SQU")
@@ -92,11 +93,17 @@ class FunctionF(Function):
     def call(self, x):
         e = x
         
-        for fc in self.block:
+        for i,fc in enumerate(self.block):
             
             e = fc(e)
             
-            e = self.nonlinearity(e)
+            # make sure activation only applied once!
+            if self.resblocks == 0:
+                e = self.nonlinearity(e)
+            else:
+                # only first one
+                if i==0 or i == (len(self.blocks)-1):
+                    e = self.nonlinearity(e)     
 
         return e
 
@@ -174,6 +181,7 @@ class FunctionH(Function):
         # m number of residual blocks
         super().__init__(units, nhidden, nonlinearity,architecture,trainable)
         # override function with residual blocks
+        self.resblocks=resblocks
         if resblocks>0:
             self.block        = [tf.keras.layers.Dense(units=self.units,trainable=trainable)]
             assert(architecture=="SQU")
@@ -185,11 +193,17 @@ class FunctionH(Function):
         
         e = x
         
-        for fc in self.block:
+        for i,fc in enumerate(self.block):
             
             e = fc(e)
             
-            e = self.nonlinearity(e)
+            # make sure activation only applied once!
+            if self.resblocks == 0:
+                e = self.nonlinearity(e)
+            else:
+                # only first one
+                if i==0:
+                    e = self.nonlinearity(e)     
 
         return e
 
