@@ -4,7 +4,7 @@ We provide here the source code for our paper "Dataset2Vec: Learning Dataset Met
 ## Usage
 Run the d2v.py file.
 ```
-python main.py 
+python d2v.py 
 ```
 ## Citing Dataset2Vec
 -----------
