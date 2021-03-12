@@ -12,7 +12,7 @@ that your data follows the same format as the existing datasets, i.e. separate p
 files with no headers/indices.
 
 ```
-python extract_meta_features.py --file "abalone" 
+python extract_meta_features.py --file abalone
 ```
 
 ## Citing Dataset2Vec
