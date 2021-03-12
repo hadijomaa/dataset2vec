@@ -43,6 +43,7 @@ config_specs = {
     'learning_rate':	args.learning_rate,
     'delta':	args.delta,
     'gamma':	args.gamma,
+    'minmax':	True,    
     'batch_size':	16,
     }
 

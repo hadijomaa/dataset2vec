@@ -120,3 +120,16 @@ class TestSampling(object):
                                        pd.DataFrame(distribution,columns=['targetdataset','sourcedataset'])],axis=0,ignore_index=True)    
             
         return batch
+
+    def sample_from_one_dataset(self,batch):
+        
+        # clear batch
+        batch.clear() 
+        # iterate over batch negative datasets
+        for _ in range(batch.batch_size):
+            # build instance
+            instance = self.dataset.instances()
+            batch.append(instance)
+        
+        return batch
+    

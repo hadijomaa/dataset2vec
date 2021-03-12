@@ -102,8 +102,8 @@ class FunctionF(Function):
                 e = self.nonlinearity(e)
             else:
                 # only first one
-                if i==0 or i == (len(self.blocks)-1):
-                    e = self.nonlinearity(e)     
+                if i==0 or i == (len(self.block)-1):
+                    e = self.nonlinearity(e)    
 
         return e
 
@@ -181,7 +181,7 @@ class FunctionH(Function):
         # m number of residual blocks
         super().__init__(units, nhidden, nonlinearity,architecture,trainable)
         # override function with residual blocks
-        self.resblocks=resblocks
+        self.resblocks = resblocks
         if resblocks>0:
             self.block        = [tf.keras.layers.Dense(units=self.units,trainable=trainable)]
             assert(architecture=="SQU")
@@ -203,7 +203,7 @@ class FunctionH(Function):
             else:
                 # only first one
                 if i==0:
-                    e = self.nonlinearity(e)     
+                    e = self.nonlinearity(e)      
 
         return e
 
