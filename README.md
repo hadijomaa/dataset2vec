@@ -22,11 +22,13 @@ To cite Dataset2Vec please reference our arxiv paper:
 
 
 ```
-@article{jomaa2019dataset2vec,
+@article{jomaa2021dataset2vec,
   title={Dataset2vec: Learning dataset meta-features},
   author={Jomaa, Hadi S and Schmidt-Thieme, Lars and Grabocka, Josif},
-  journal={Accepted at DAMI 2020},
-  year={2019}
+  journal={Data Mining and Knowledge Discovery},
+  pages={1--22},
+  year={2021},
+  publisher={Springer}
 }
 ```
 
