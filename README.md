@@ -2,10 +2,19 @@
 We provide here the source code for our paper "Dataset2Vec: Learning Dataset Meta-Features".
 
 ## Usage
-Run the d2v.py file.
+To train the metafeature extractor, run the d2v.py file.
 ```
 python d2v.py 
 ```
+
+To extract metafeatures from new datasets, run the extract_meta_features.py file. Please make sure
+that your data follows the same format as the existing datasets, i.e. separate predictor and labels .dat 
+files with no headers/indices.
+
+```
+python extract_meta_features.py --file "abalone" 
+```
+
 ## Citing Dataset2Vec
 -----------
 
