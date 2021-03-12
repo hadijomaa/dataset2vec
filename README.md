@@ -18,7 +18,7 @@ python extract_meta_features.py --file abalone
 ## Citing Dataset2Vec
 -----------
 
-To cite Dataset2Vec please reference our arxiv paper:
+To cite Dataset2Vec please reference our DAMI paper:
 
 
 ```
