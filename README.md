@@ -1,5 +1,5 @@
 # Dataset2Vec: Learning Dataset Meta-Features
-We provide here the source code for our paper "Dataset2Vec: Learning Dataset Meta-Features".
+We provide here the source code for our paper: [Dataset2Vec: Learning Dataset Meta-Features](https://link.springer.com/article/10.1007/s10618-021-00737-9).
 
 ## Usage
 To train the metafeature extractor, run the d2v.py file.
