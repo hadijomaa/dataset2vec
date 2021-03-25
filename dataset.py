@@ -72,7 +72,8 @@ class Dataset(object):
         self.orig_tstr = {}   
         self.global_surr          = {}
         # metafeatures
-        self.orig_aaai = {}            
+        self.orig_aaai = {}
+        self.orig_files = {}
         # create hyperparameter space
         self.orighyper    = None
         # read meta-splits
@@ -123,6 +124,7 @@ class Dataset(object):
                 # append surrogate to list
                 surr.append(task)
                 self.global_surr.update({file:task})
+            self.orig_files.update({split:files})
             # add dataset of the split list to dictionary
             self.orig_data.update({split:data})
             # add labels of the split list to dictionary
